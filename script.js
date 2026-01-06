@@ -1,5 +1,3 @@
-// console.log("Portfolio Loaded Successfully");
-// Smooth scrolling for navbar
 document.querySelectorAll("nav a").forEach((link) => {
     link.addEventListener("click", function (e) {
       e.preventDefault();
@@ -29,4 +27,5 @@ const menuToggle = document.getElementById("menuToggle");
   });
   function closeMenu() {
     navMenu.classList.remove("active");
+
   }
